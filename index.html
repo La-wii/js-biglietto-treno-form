@@ -28,23 +28,23 @@
             <div class="row my-5">
 
                 <!-- inizio nome -->
-                <div class="col-4 py-3">
+                <div class="col-4 py-3 text-center">
                     <label for="nome" class="pink py-2">Nome e Cognome</label>
                     <br>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" value="Pippo">
                 </div>
                 <!-- fine nome -->
 
                 <!-- inizio km -->
-                <div class="col-4 py-3">
+                <div class="col-4 py-3 text-center">
                     <label for="km" class="pink py-2">Km da percorrere</label>
                     <br>
-                    <input type="number" id="km">
+                    <input type="number" id="km" value="20">
                 </div>
                 <!-- fine km -->
 
                 <!-- inizio eta -->
-                <div class="col-4 py-3">
+                <div class="col-4 py-3 text-center">
 
                     <label for="eta" class="pink py-2">Fascia d'età</label>                    
                     <br>
@@ -110,20 +110,42 @@
 
 
 
-            <div class="row">
-                <div class="col-3">
+            <div class="row p-3">
+                <!-- inzio nome passeggero -->
+                <div class="col-4">
+                    <h6 class="text-uppercase">nome passeggero</h6>
+                    <p id="nome-utente"></p>
+                </div>
+                <!-- inzio fine passeggero -->
+
+                <!-- inizio offerta -->
+                <div class="col-2">
+                    <h6>Offerta</h6>
+                </div>
+                <!-- fine offerta -->
+
+                <!-- inizio carrozza -->
+                <div class="col-2">
+                    <h6>Carrozza</h6>
+                    <div id="numero-carozza">
+
+                    </div>
+                </div>
+                <!-- fine carrozza -->
+
+                <!-- inizio codice cp -->
+                <div class="col-2">
+                    <h6>Codice Cp</h6>
+                    <div id="numero-cp"></div>
 
                 </div>
-                <div class="col-3">
+                <!-- fine codice cp -->
 
+                <!-- inizio costo biglietto -->
+                <div class="col-2">
+                    <h6>Costo biglietto</h6>
                 </div>
-                <div class="col-3">
-
-                </div>
-
-                <div class="col-3">
-
-                </div>
+                <!-- fine costo biglietto -->
             </div>
 
         </div>
