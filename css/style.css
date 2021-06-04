@@ -2,7 +2,13 @@ body{
     background-color: #b91450;
 }
 
-.input-section{
+.input-section,
+.ticket-section{
     background-color: white;
+    height: 250px;
+}
+
+.pink{
+    color: #b91450;
 }
 
