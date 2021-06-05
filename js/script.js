@@ -14,29 +14,27 @@ submit.addEventListener("click", function(){
     // prezzo
     var prezzo = km * 0.21;
     // console.log(prezzo);
-    // prezzo = prezzo.toFixed(2);
 
     // eta
-    // var eta = document.getElementById('eta');
-    // console.log(eta);
+    var eta = document.getElementById('fascia-eta').value;
+    console.log(eta);
 
     
-    // for (var i = 0; i < 2; i++) {
-    //     if (eta == "over65"){
-    //         prezzo = prezzo * 0.6;
-    //         console.log(prezzo);      
-    //     } else if (eta == "minorenne"){
-    //         prezzo = prezzo * 0.8;
-    //         console.log(prezzo);
-    //     }
+    for (var i = 0; i < 2; i++) {
+        if (eta == "over65"){
+            prezzo = prezzo * 0.6;
+            console.log(prezzo);      
+        } else if (eta == "minorenne"){
+            prezzo = prezzo * 0.8;
+            console.log(prezzo);
+        }
         
-    // }
+    }
    
 
     document.getElementById("costo-biglietto").innerHTML = prezzo.toFixed(2);
     
     var fascia = document.getElementById('fascia-eta').value;
-    // console.log(fascia);
     document.getElementById("scopri-offerta").innerHTML = fascia;
 
     var carrozza = Math.floor(Math.random()* 9) + 1;
