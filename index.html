@@ -46,7 +46,7 @@
                 <!-- inizio eta -->
                 <div class="col-4 py-3 text-center">
 
-                    <label for="eta" class="pink py-2">Fascia d'età</label>                    
+                    <label for="fascia-eta" class="pink py-2">Fascia d'età</label>                    
                     <br>
 
                     <select id="fascia-eta">
@@ -95,12 +95,12 @@
         <!-- inizio titolo -->
         <div class="row text-center text-white text-uppercase my-5">
             <col-12>
-            <h2>Il tuo biglietto</h2>
+            <h2 id="ticket-title">Il tuo biglietto</h2>
             </col-12>
         </div>
         <!-- fine titolo -->
 
-        <div class="ticket-section">
+        <div class="ticket-section" id="ticket">
 
             <div class="row p-3">
                 <col-12>
@@ -121,6 +121,7 @@
                 <!-- inizio offerta -->
                 <div class="col-2">
                     <h6>Offerta</h6>
+                    <p id="scopri-offerta"></p>
                 </div>
                 <!-- fine offerta -->
 
@@ -136,7 +137,7 @@
                 <!-- inizio codice cp -->
                 <div class="col-2">
                     <h6>Codice Cp</h6>
-                    <div id="numero-cp"></div>
+                    <p id="numero-cp"></p>
 
                 </div>
                 <!-- fine codice cp -->
@@ -144,6 +145,7 @@
                 <!-- inizio costo biglietto -->
                 <div class="col-2">
                     <h6>Costo biglietto</h6>
+                    <p id="costo-biglietto"></p>
                 </div>
                 <!-- fine costo biglietto -->
             </div>
