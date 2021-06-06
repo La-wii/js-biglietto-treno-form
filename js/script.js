@@ -22,10 +22,12 @@ submit.addEventListener("click", function(){
     
     for (var i = 0; i < 2; i++) {
         if (eta == "over65"){
-            prezzo = prezzo * 0.6;
+            // prezzo = prezzo * 0.6;
+            prezzo = km * 0.21 * 60 / 100
             console.log(prezzo);      
         } else if (eta == "minorenne"){
-            prezzo = prezzo * 0.8;
+            // prezzo = prezzo * 0.8;
+            prezzo = km * 0.21 * 80 / 100
             console.log(prezzo);
         }
         
